@@ -26,6 +26,7 @@ for epoch in range(epochs):
     w[0] -= lr * dw[0]
     b -= lr * db
 
+
 predictions = []
 for i in range(m):
     z = w[0] * x[i] + b
